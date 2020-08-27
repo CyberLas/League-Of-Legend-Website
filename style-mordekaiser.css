@@ -1,16 +1,3 @@
-html,body{
-  background:black;
-  overflow-x: hidden;
-  color:black;
-  height:100%;
-  width:101%;
-  margin: 0px;
-  padding: 0px;
-  overflow-y : scroll;
-}
-::-webkit-scrollbar {
-    display: none;
-}
 img{
 	border-radius: 50%;
 	width: 20%;
@@ -70,7 +57,4 @@ table tbody tr td img{
 
 table tbody tr td img:hover {
 	-webkit-transform:scale(1.5);transform:scale(1.3);
-}
-.Normal{
-	text-align: justify-all;
 }

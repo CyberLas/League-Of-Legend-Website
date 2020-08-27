@@ -1,10 +1,215 @@
+html,body{
+  background:black;
+  overflow-x: hidden;
+  color:black;
+  height:100%;
+  width:101%;
+  margin: 0px;
+  padding: 0px;
+  overflow-y : scroll;
+}
+#inselect:hover{
+	font-size: 15px;
+}
+
 .title-index h1{
 	font-family: 'Russo One', sans-serif;
 	text-align: center;
 	font-size: 50px;
 	margin-top: 10%;
+	color: white;
+}
+#container-id{
+	margin-bottom: 10%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+img:hover{
+	filter: blur(0px);
 }
 
-table thead tr th{
-	font-family: 'Pacifico', cursive;
+img{
+	margin-top: 10%;
+	height: 300px;
+	width: 300px;
+	filter: blur(3px);
+	border-radius: 50%;
+	margin-bottom: 10%;
+}
+a:hover{
+	font-size: 37px;
+}
+
+a{
+	font-size: 35px;
+}
+
+#Kaisa{
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+
+#Mordekaiser{
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+
+#Garen{
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+ul li a{
+	font-size: 15px;
+}
+#pagination-index{
+	margin-left: 45%;
+}
+
+.mobile-container {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0;
+  width: 600px;
+  height: 320px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+.mobile-container:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+.mobile-container:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+.mobile-container p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.social-sharing {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.social-sharing ul.menu-social {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrapwrap;
+  flex-wrap: nowrap;
+}
+
+.social-sharing ul.menu-social li {
+    flex: 0 1 40px;
+  height: 40px;
+}
+.social-sharing ul.menu-social li.newsletter {
+    flex: 1 1 auto;
+  line-height: 40px;
+  position: relative;
+  background-color: #fafafa;
+  background-image: repeating-linear-gradient(135deg, #ffe4e1 0px, #ffe4e1 5px, transparent 5px, transparent 10px, #e1f3ff 10px, #e1f3ff 15px, transparent 15px, transparent 20px);
+}
+.social-sharing ul.menu-social li.next {
+    flex: 1 1 auto;
+}
+
+.social-sharing ul.menu-social li a {
+  display: block;
+    color: #fff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+}
+
+.social-sharing ul.menu-social li.newsletter span {
+  color: #807F7F;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.social-sharing ul.menu-social li.next a {
+  color: #807F7F;
+  background-color: #ffecb8;
+}
+
+ul.menu-social li a::before {
+    content: "\f135";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  line-height: 40px;
+}
+
+.social-sharing ul.menu-social li.next a::before {
+    content: none;
+}
+
+.screen-reader-text {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 15px;
+}
+.zoom-area { 
+  max-width: 490px;
+  margin: 30px auto 30px;
+  font-size: 19px;
+  text-align: center;
+}
+.link-container {
+  text-align: center;
+}
+
+a.more-link {
+  text-transform: uppercase;
+  font-size: 13px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 0;
+    color: #416475;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  border: 1px solid #ccc;
 }

@@ -3,89 +3,83 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
     <title>CyberLas</title>
   </head>
   <body>
   	<dir class="title-index">
-		<h1 >League of Legends</h1>	
+		<a href="index.html"><h1 >League of Legends</h1></a>	
   	</dir>
-  	<div class="container">
-  		<div id="Garen">
-	  		<h2>Garen</h2>
-	  	</div>
-	  	<div id="Garen">
-	  		<h2>Mordekaiser</h2>
-	  	</div>
-
-	  	<div id="Garen">
-	  		<h2>Kaisa</h2>
-	  	</div>
-  	</div>
-  	<div class="container">
-	  <div class="panel-group">
-	    <div class="panel panel-default">
-	      <div class="panel-heading">
-	        <h4 class="panel-title">
-	          <a data-toggle="collapse" href="#collapse1">Porcentaje del Campeón</a>
-	        </h4>
-	      </div>
-	      <div id="collapse1" class="panel-collapse collapse">
-	        <div class="panel-body">
-	        	<table class="table">
-	        		<thead>
-	        			<tr>
-	        				<th></th>
-	        				<th>Hierro</th>
-	        				<th>Bronce</th>
-	        				<th>Plata</th>
-	        				<th>Oro</th>
-	        				<th>Platino</th>
-	        				<th>Diamante</th>
-	        				<th>Maestro</th>
-	        				<th>Challenge</th>
-	        			</tr>
-	        		</thead>
-	        			<tr>
-	        				<td> Porcentaje de Victorias </td>
-	        				<td id="iron"></td>
-	        				<td id="bronze"></td>
-	        				<td id="silver"></td>
-	        				<td id="golden"></td>
-	        				<td id="platinum"></td>
-	        				<td id="diamond"></td>
-	        				<td id="granmaster"></td>
-	        				<td id="challenge"></td>
-	        			</tr>
-	        			<tr>
-	        				<td> Porcentaje de Derrotas </td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        				<td class="gameover"></td>
-	        			</tr>
-	        		<tbody>
-	        				
-	        		</tbody>
-	        	</table>
-	    	</div>
-	      </div>
-	    </div>
-	  </div>
+  	<div class="container" id="container-id">
+  		<div class="row">
+	    	<div class="col-sm">
+	      		<div id="Garen">
+	      			<a href="windows-garen.html"><img src="imag/Garen/Garen.jpg"></a>
+		  			<a href="windows-garen.html" style="color:#ffffff;;">Garen</a>
+		  		</div>
+	   		</div>
+	    	<div class="col-sm">
+	      		<div id="Garen">
+	      			<a href="windows-mordekaiser.html"><img src="imag/Mordekaiser/Mordekaiser.png"></a>
+		  			<a href="windows-mordekaiser.html" style="color:#ffffff;">Mordekaiser</a>
+		  		</div>
+	   		</div>
+    		<div class="col-sm">
+      			<div id="Garen">
+      				<a href="windows-kaisa.html"><img src="imag/Kaisa/Kaisa.png"></a>
+	  				<a href="windows-kaisa.html" style="color:#ffffff;">Kaisa</a>
+	  			</div>
+    		</div>
+  		</div>
 	</div>
-    
-  	<div class="content-1">
-  	</div>
-	<div id="content-2">
-  	</div>
+	<div class="container" id="pagination-index">             
+		<ul class="pagination" >
+		    <li>
+		    	<a href="#">1</a>
+		    </li>
+		    <li>
+		    	<a href="#">2</a>
+		    </li>
+		    <li>
+		    	<a href="#" id="inselect">..</a>
+		    </li>
+		    <li>
+		    	<a href="#">4</a>
+		    </li>
+		    <li>
+		    	<a href="#">5</a>
+		    </li>
+		</ul>
+	</div>
+	<aside class="social-sharing">
+		<ul class="menu-social">
+			<li class="social-item">
+				<a href="http://twitter.com/intent/tweet?text=SiloCreativo&url=https://www.silocreativo.com/en/" target="_blank">
+					<span class="screen-reader-text">Twitter</span>
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="http://www.facebook.com/sharer.php?u=https://www.silocreativo.com/en/&t=SiloCreativo" target="_blank"><span class="screen-reader-text">Facebook</span>
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="https://www.pinterest.com/pin/find/?url=https://www.silocreativo.com/en/" target="_blank"><span class="screen-reader-text">Pinterest</span>
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="whatsapp://send?text=https://www.silocreativo.com/en/" data-action="share/whatsapp/share">
+					<span class="screen-reader-text">Whatsapp</span>
+				</a>
+			</li> 
+			<li class="social-item next">
+				<a href="#">Visita nuestras Redes Sociales</a>
+			</li>
+		</ul>
+	</aside>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main-js.js"></script>
   </body>
