@@ -1,0 +1,10 @@
+.title-index h1{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10%;
+}
+
+table thead tr th{
+	font-family: 'Pacifico', cursive;
+}

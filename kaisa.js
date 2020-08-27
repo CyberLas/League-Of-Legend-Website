@@ -1,0 +1,17 @@
+var x = document.getElementsByClassName("gameover");
+x[0].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[1].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[2].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[3].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[4].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[5].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[6].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[7].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[8].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[9].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[10].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[11].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[12].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[13].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[14].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
+x[15].innerHTML= Math.floor(Math.random() * (20 - 10) + 5)+'%';
