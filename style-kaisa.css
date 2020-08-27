@@ -1,12 +1,8 @@
-body{
-	background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F266719-League_of_Legends-Poro-Tryndamere.jpg&f=1&nofb=1');
-}
-
 img{
 	border-radius: 50%;
 	width: 20%;
 	display: block;
-	margin: 5%;
+	margin: 3%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,10 +22,11 @@ a{
 }
 
 #kaisa-text{
-	margin:5% 0% 5% 0%;
+	margin:3% 0% 3% 0%;
 	text-align: center;
 	font-size: 55px;
-	color: rgb(250,24,34);
+	color: #000000;
+	font-family: 'Press Start 2P', cursive;
 }
 
 table {
@@ -50,4 +47,14 @@ table thead tr th{
 
 table tbody tr td{
 	text-align: center;
+}
+
+table tbody tr td img{
+	margin-top: 10%;
+	margin-bottom: 20%;
+	overflow:hidden;
+}
+
+table tbody tr td img:hover {
+	-webkit-transform:scale(1.5);transform:scale(1.3);
 }
