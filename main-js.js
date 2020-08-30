@@ -1,7 +1,8 @@
-$('#Garen').on('click', function () {
-	$('.content-1').html('<strong>Ejemplo con html()</strong>');
-});
 
+
+$( "#a" ).load( "data.txt" );
+
+/*
 document.getElementById("iron").innerHTML = Math.floor(Math.random() * (60 - 10) + 10)+'%';
 document.getElementById("bronze").innerHTML = Math.floor(Math.random() * (60 - 20) + 10)+'%';
 document.getElementById("silver").innerHTML = Math.floor(Math.random() * (60 - 30) + 10)+'%';
@@ -11,3 +12,4 @@ document.getElementById("diamond").innerHTML = Math.floor(Math.random() * (40 - 
 document.getElementById("granmaster").innerHTML = Math.floor(Math.random() * (30 - 10) + 5)+'%';
 document.getElementById("challenge").innerHTML = Math.floor(Math.random() * (20 - 10) + 5)+'%';
 var x = document.getElementsByClassName("gameover");
+*/
